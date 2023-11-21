@@ -1,7 +1,7 @@
 
 # greeting.py
 def get_name(input_func=input):
-    return input_func("Enter your name: ")
+    return input_func("Somasekhar")
 
 if __name__ == "__main__":
     name = get_name()
