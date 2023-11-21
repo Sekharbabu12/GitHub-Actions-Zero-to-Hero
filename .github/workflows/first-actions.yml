@@ -25,4 +25,6 @@ jobs:
     - name: Run tests
       run: |
         cd src
-        python -m pytest addition.py greeting.py tic-tac-toe.py
+        python -m pytest addition.py 
+        python -m pytest greeting.py 
+        python -m pytest tic-tac-toe.py
