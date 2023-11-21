@@ -1,7 +1,6 @@
-# Simple Python code example
+# greeting.py
+def get_name():
+    return input("Enter your name:Somasekhar")
 
-# Prompt the user for their name
-name = input("Somasekhar")
+name = get_name()
 
-# Print a personalized greeting
-print(f"Hello, {name}! Welcome to Python programming.")
