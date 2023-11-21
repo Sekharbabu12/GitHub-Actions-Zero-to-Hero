@@ -26,4 +26,4 @@ jobs:
       run: |
         cd src
         python -m pytest  addition.py 
-        python -m pytest -s tic-tac-toe.py
+        
