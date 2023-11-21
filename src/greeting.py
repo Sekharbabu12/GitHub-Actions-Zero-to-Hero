@@ -1,9 +1,3 @@
-# greeting.py
-def get_name():
-    return input("Somasekhar")
-
-name = get_name()
-
 
 # greeting.py
 def get_name(input_func=input):
@@ -14,4 +8,11 @@ if __name__ == "__main__":
     print(f"Hello, {name}!")
 
 
+# test_greeting.py
+from unittest.mock import patch
+from greeting import get_name
+
+def test_get_name():
+    with patch('builtins.input', return_value='Somasekhar'):
+        assert get_name() == 'Somasekhar'
 
